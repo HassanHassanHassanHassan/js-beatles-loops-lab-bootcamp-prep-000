@@ -26,7 +26,7 @@ var zzz = []
 function increment()
 {i = i + 1}
 do
-{
+{increment() }
 while( number <15)
 {zzz.push('I love the Beatles!'); number++}
 return zzz
